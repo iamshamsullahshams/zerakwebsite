@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Zerak.org</title>
+
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        height: 100vh;
+        font-family: Arial, Helvetica, sans-serif;
+        background:
+            linear-gradient(
+                rgba(15, 23, 42, 0.75),
+                rgba(37, 99, 235, 0.75)
+            ),
+            url("https://images.unsplash.com/photo-1518770660439-4636190af475")
+            center/cover no-repeat;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        text-align: center;
+    }
+
+    .container {
+        padding: 20px;
+    }
+
+    .logo {
+        font-size: 4rem;
+        font-weight: 700;
+        letter-spacing: 2px;
+        margin-bottom: 25px;
+    }
+
+    .topics {
+        display: flex;
+        gap: 25px;
+        justify-content: center;
+        flex-wrap: wrap;
+        font-size: 1.8rem;
+        font-weight: 600;
+    }
+
+    .topic {
+        padding: 12px 25px;
+        border: 1px solid rgba(255,255,255,0.4);
+        border-radius: 50px;
+        backdrop-filter: blur(5px);
+    }
+
+    .name {
+        margin-top: 60px;
+        font-size: 1rem;
+        opacity: 0.8;
+        letter-spacing: 1px;
+    }
+
+
+    @media(max-width:600px){
+
+        .logo {
+            font-size: 2.8rem;
+        }
+
+        .topics {
+            font-size: 1.2rem;
+        }
+
+    }
+
+</style>
+
+</head>
+
+<body>
+
+<div class="container">
+
+    <div class="logo">
+        Zerak.org
+    </div>
+
+    <div class="topics">
+        <div class="topic">AI</div>
+        <div class="topic">Technology</div>
+        <div class="topic">Growth</div>
+    </div>
+
+    <div class="name">
+        Shamsullah Shams
+    </div>
+
+</div>
+
+</body>
+</html>
